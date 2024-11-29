@@ -1,0 +1,21 @@
+@import url("header.css");
+@import url("main.css");
+@import url("footer.css");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos responsivos */
+@media (max-width: 600px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+}
